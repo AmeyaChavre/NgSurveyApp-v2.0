@@ -116,4 +116,9 @@ export class QuizComponent implements OnInit {
     console.log(this.quiz.questions);
     this.mode = 'result';
   }
+
+  count: number = 0; 
+  clickCount(): void{
+       this.count++
+       }
 }
